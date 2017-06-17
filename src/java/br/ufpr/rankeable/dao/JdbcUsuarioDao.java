@@ -19,7 +19,7 @@ import java.util.List;
 
 /**
  *
- * @author CCE
+ * @author Lucas
  */
 public class JdbcUsuarioDao {
 

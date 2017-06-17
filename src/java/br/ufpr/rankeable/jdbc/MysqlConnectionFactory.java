@@ -11,7 +11,7 @@ import java.sql.SQLException;
 
 /**
  *
- * @author CCE
+ * @author Lucas
  */
 public class MysqlConnectionFactory {
     

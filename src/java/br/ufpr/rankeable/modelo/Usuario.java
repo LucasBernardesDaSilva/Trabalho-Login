@@ -9,7 +9,7 @@ import static javax.swing.text.StyleConstants.Size;
 
 /**
  *
- * @author julio
+ * @author Lucas
  */
     public class Usuario {
    

@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
  *
- * @author helio
+ * @author Lucas
  */
 @Controller
 public class VotacaoController {

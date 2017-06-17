@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
  *
- * @author julio
+ * @author Lucas
  */
 @Controller
 public class LoginController {
@@ -31,7 +31,7 @@ public class LoginController {
     @RequestMapping("/efetuaLogin")
     public String efetuaLogin(Usuario usuario, HttpSession session) throws SQLException {
         if (new JdbcUsuarioDao().existeUsuario(usuario)) {
-            session.setAttribute("usuarioLogado", usuario);
+            session.setAttribute("usuarioLogado", usuario.getNome());
             return "menu";    
       
         }
